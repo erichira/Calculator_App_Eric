@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <header>
+        <h1>calc</h1>
+        <nav>
+          <span>THEME</span>
+          <div class="theme-selector">
+            <div class="labels">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="toggle-container" id="toggle-container">
+              <div class="toggle" id="toggle"></div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="display">
+          <h1 data-display>422,908</h1>
+        </section>
+
+        <section class="buttons-wrapper">
+          <article class="main-buttons-container">
+            <button value="7" class="tc" id="7">7</button>
+            <button value="8" class="tc" id="8">8</button>
+            <button value="9" class="tc" id="9">9</button>
+            <button value="del" class="tc sp-btn" id="del">DEL</button>
+            <button value="4" class="tc" id="4">4</button>
+            <button value="5" class="tc" id="5">5</button>
+            <button value="6" class="tc" id="6">6</button>
+            <button value="+" class="tc" id="+">+</button>
+            <button value="1" class="tc" id="1">1</button>
+            <button value="2" class="tc" id="2">2</button>
+            <button value="3" class="tc" id="3">3</button>
+            <button value="-" class="tc" id="-">-</button>
+            <button value="." class="tb" id=".">.</button>
+            <button value="0" class="tc" id="0">0</button>
+            <button value="/" class="tc" id="/">/</button>
+            <button value="*" class="tc" id="times">&times</button>
+          </article>
+          <article class="special-button-container">
+            <button value="reset" class="sp-btn" id="reset">RESET</button>
+            <button value="=" class="eq-btn" id="=">=</button>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/erichira" target="_blank"
+        >Eric Hira</a
+      >.
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
